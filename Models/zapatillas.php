@@ -2,37 +2,37 @@
 
 Class zapatillas {
     private $id;
-    private $tituloc;
-    private $descrip;
+    private $texto;
+    private $titulo;
     private $vinculo;
-    private $text;
+    private $descripcion;
 
 
-    public function __construct($id,$tituloc,$descrip,$vinculo,$text){
+    public function __construct($id,$texto,$titulo,$vinculo,$descripcion){
         $this->id=$id;
-        $this->tituloc = $tituloc;
-        $this->descrip = $descrip;
+        $this->texto = $texto;
+        $this->titulo = $titulo;
         $this->vinculo = $vinculo;
-        $this->text = $text;
+        $this->descripcion = $descripcion;
 
     }
     public function setid($id){
         $this->id= $id;
     }
-    public function settituloc($tituloc){
-        $this->tituloc= $tituloc;
+    public function settexto($texto){
+        $this->texto= $texto;
     }
 
-    public function setdescrip($descrip){
-        $this->descrip = $descrip;
+    public function settitutlo($titulo){
+        $this->titulo = $titulo;
     }
 
     public function setvinculo($vinculo){
         $this->vinculo = $vinculo;
     }
 
-    public function settext($text){
-        $this->text = $text;
+    public function setdescripcion($descripcion){
+        $this->descripcion = $descripcion;
     }
 
 
@@ -41,20 +41,20 @@ Class zapatillas {
     }
 
 
-    public function gettituloc(){
-        return $this->tituloc;
+    public function gettexto(){
+        return $this->texto;
     }
 
-    public function getdescrip(){
-        return $this->descrip;
+    public function gettitulo(){
+        return $this->titulo;
     }
 
     public function getvinculo(){
         return $this->vinculo;
     }
 
-    public function gettext(){
-        return $this->text;
+    public function getdescripcion(){
+        return $this->descripcion;
     }
 
 

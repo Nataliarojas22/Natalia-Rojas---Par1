@@ -40,8 +40,8 @@
         <div class="carousel-item <?php echo "active"?>">
             <img src="<?php echo $car->getvinculo()?>" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5><?php echo $car->getdescrip()?></h5>
-                <p><?php echo $car->gettext()?></p>
+                <h5><?php echo $car->getdescripcion()?></h5>
+                <p><?php echo $car->gettexto()?></p>
             </div>
         </div>
         <?php } ?>
@@ -49,8 +49,8 @@
     <div class="carousel-item <?php echo "" ?>">
             <img src="<?php echo $car->getvinculo()?>" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5><?php echo $car->getdescrip()?></h5>
-                <p><?php echo $car->gettext()?></p>
+                <h5><?php echo $car->getdescripcion()?></h5>
+                <p><?php echo $car->gettexto()?></p>
             </div>
         </div>
 
